@@ -1,0 +1,62 @@
+{
+  "post": {
+    "addUser": {
+      "url": "/hc/user/add/"
+    },
+    "chgPwd": {
+      "url": "/hc/user/chgPwd/"
+    },
+    "signIn": {
+      "url": "/hc/signIn/"
+    },
+    "signOut": {
+      "url": "/hc/signOut/"
+    },
+    "uploadToHdfs": {
+      "url": "/hc/uploadToHdfs/"
+    },
+    "addNode": {
+      "url": "/hc/addNode/"
+    },
+    "addMultiple": {
+      "url": "/hc/addMultiple/"
+    },
+    "updateFileTitle": {
+      "url": "/hc/updateFileTitle/"
+    },
+    "delNodes": {
+      "url": "/hc/delNodes/"
+    },
+    "deleteFilesFromHdfs": {
+      "url": "/hc/deleteFilesFromHdfs/"
+    },
+    "searchFiles": {
+      "url": "/hc/searchFiles/"
+    }
+
+  },
+
+  "get": {
+    "chkId": {
+      "url": "/hc/user/chkId?id="
+    },
+    "downloadFromHdfs": {
+      "url": "/hc/downloadFromHdfs?sourcePath=/usr/backup/u2.txt/"
+    },
+    "getFileList": {
+      "url": "/hc/getFileList?sourcePath="
+    },
+    "getUserFileTree": {
+      "url": "/hc/getUserFileTree?userId="
+    },
+    "getFileListByNodeId": {
+      "url": "/hc/getFileListByNodeId?id="
+    },
+    "getUserRootList": {
+      "url": "/hc/getUserRootList?userId="
+    },
+    "getUserFileListGoBack": {
+      "url": "/hc/getUserFileListGoBack?id="
+    }
+  }
+}
